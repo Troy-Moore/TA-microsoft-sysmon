@@ -1,0 +1,64 @@
+[app/install/install_source_checksum]
+version = 7.3.0
+modtime = 1572371188.026940900
+
+[eventtypes/idx_sysmon]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 8.0.0
+modtime = 1573586804.593702700
+
+[eventtypes/sysmon_logs]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 8.0.0
+modtime = 1573587049.590159600
+
+[eventtypes/ms-sysmon-filemod]
+version = 8.0.0
+modtime = 1573587085.787813000
+
+[tags/eventtype%3Dms-sysmon-filemod]
+version = 8.0.0
+modtime = 1573587085.883575800
+
+[eventtypes/ms-sysmon-network]
+version = 8.0.0
+modtime = 1573587098.569929400
+
+[tags/eventtype%3Dms-sysmon-network]
+version = 8.0.0
+modtime = 1573587098.720407400
+
+[eventtypes/ms-sysmon-process]
+version = 8.0.0
+modtime = 1573587120.466280600
+
+[tags/eventtype%3Dms-sysmon-process]
+version = 8.0.0
+modtime = 1573587120.553049700
+
+[eventtypes/ms-sysmon-regmod]
+version = 8.0.0
+modtime = 1573587179.509699400
+
+[tags/eventtype%3Dms-sysmon-regmod]
+version = 8.0.0
+modtime = 1573587179.618685700
+
+[eventtypes/ms-sysmon-wmimod]
+version = 8.0.0
+modtime = 1573587199.155960900
+
+[tags/eventtype%3Dms-sysmon-wmimod]
+version = 8.0.0
+modtime = 1573587199.277177700
+
+[props/source%3A%3AXmlWinEventLog%3AMicrosoft-Windows-Sysmon%2FOperational/FIELDALIAS-CIM-Endpoint-Processes]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 8.0.0
+modtime = 1573588555.244633200
